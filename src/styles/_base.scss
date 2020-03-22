@@ -1,0 +1,75 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  min-width: 50rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+span.MuiTypography-root {
+  font-size: 16px !important;
+  color: #05abff;
+  transition: transform .125s ease-in;
+  
+}
+
+span.MuiTypography-root:hover {
+  color: #000;
+  transform: translateX(4px);
+}
+
+span.MuiButton-label {
+  position: fixed;
+  width: 80px;
+  padding: 1rem;
+  border-radius: 80px;
+  top: 1rem;
+  left: 1rem;
+  z-index: 100;
+  background-color: rgba(0,0,0,.8);
+
+}
+
+
+.fa-dove {
+  transition: .2s ease-in;
+}
+
+.fa-dove:hover { 
+  transform: scale(1.2);
+  color: #fff;
+}
+
+// progress bar
+
+#nprogress .bar {
+  height: .7rem;
+}
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
