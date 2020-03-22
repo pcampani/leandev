@@ -21,9 +21,11 @@ export const Wrapper = styled.div`
 `
 export const pageTransition = {
   in: {
-    opacity:1
+    opacity:1,
+    x: 0
   },
   out: {
-    opacity:0
+    opacity:0,
+    x: '100vw'
   }
 }

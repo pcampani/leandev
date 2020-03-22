@@ -1,4 +1,13 @@
-# Leandev React Project
+# Leandev React Project 
+
+## Tech Stack Used
+
+* React
+* React Hooks
+* Material UI for Main Menu
+* Styled Components
+* Saas
+* Webpack
 
 ## How to run app
 * Install dependencies with npm install
