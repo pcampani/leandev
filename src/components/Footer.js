@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const Footer = styled.div`
   margin-top: 3rem;
+  color: #fff;
   display:grid;
   place-content: center;
   height: 50px;
@@ -11,12 +12,13 @@ const Footer = styled.div`
 
   h4 {
     font-size: 14px;
+    font-weight: lighter;
   }
   `
 
 const Bottom = () => (
   <Footer>
-    <h4>Frontend Coding Challenge - Philip Campani 2020</h4>
+    <h4>Frontend Coding Challenge - Philip Campani &copy; 2020</h4>
   </Footer>
 )
 
