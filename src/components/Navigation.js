@@ -48,7 +48,10 @@ export default function TemporaryDrawer() {
       <List onClick={showSlider}>
         {['Home', 'MakeSchool', 'NewsY', 'YComb'].map((text) => (
           <ListItem button key={text}>
-						<NavLink exact to={text === 'Home' ? "/" : `/${text.toLowerCase()}`  }>
+            <NavLink 
+              exact 
+              activeClassName='active' 
+              to={text === 'Home' ? "/" : `/${text.toLowerCase()}`}>
 							<ListItemText className='nav-link' primary={text} />
 						</NavLink>
             

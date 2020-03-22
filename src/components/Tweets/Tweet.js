@@ -5,12 +5,11 @@ import styled from "styled-components";
 import bg from "../../../build/assets/bg.jpg"
 
 const TweetCard = styled.div`
-  /* border: 3px solid #3c52aa; */
   display: grid;
   position: relative;
   height: 25rem;
   border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(0,0,0,.8), inset 1px 0px 8px 0px #3c52aabb;;
+  box-shadow: 2px 2px 10px rgba(0,0,0,.8), inset 1px 0px 8px 0px #3c52aabb;;
   transition: .2s ease-in;
 
   &:hover {

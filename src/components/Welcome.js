@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from "styled-components";
-import { motion } from 'framer-motion';
 import img from "../../build/assets/tweet.jpg";
 
 const Index = styled.div`
@@ -48,11 +47,11 @@ const Index = styled.div`
 export default function Welcome() {
 
     return (
-      <motion.div exit={{opacity:0}} animate={{opacity:1}} inital={{opacity: 0}}>
+      <div>
         <Index>
           <h1>FRONTEND CODING<span>CHALLENGE</span></h1>
         </Index>
-      </motion.div>
+      </div>
     )
 }
   

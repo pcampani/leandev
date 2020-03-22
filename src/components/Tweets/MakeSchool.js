@@ -1,6 +1,5 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
-import { motion } from 'framer-motion';
 
 import Header from '../Header';
 import Tweet from "./Tweet";
@@ -21,7 +20,7 @@ export default function MakeSchool() {
   },[])
   
     return (
-      <motion.div exit='out' animate='in' inital='out' variants={pageTransition}>
+      <div>
          <Header />
         <Container maxWidth='lg'>
           <Heading>MakeSchool</Heading>
@@ -30,7 +29,7 @@ export default function MakeSchool() {
           </Wrapper>
         </Container>
         <Footer />
-      </motion.div>
+      </div>
       
     )
 }
