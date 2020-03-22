@@ -21,6 +21,10 @@ const useStyles = makeStyles({
   },
 });
 
+const showSlider = () => {
+	document.querySelector("h1").classList.toggle("hide");
+}
+
 export default function TemporaryDrawer() {
   const classes = useStyles();
   const [state, setState] = React.useState({left: false});
@@ -29,12 +33,11 @@ export default function TemporaryDrawer() {
     if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
       return;
     }
-
     setState({ ...state, [anchor]: open });
   };
 
   const list = anchor => (
-    <div
+    <div 
       className={clsx(classes.list, {
         [classes.fullList]: anchor === 'top' || anchor === 'bottom',
       })}
@@ -42,7 +45,7 @@ export default function TemporaryDrawer() {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      <List>
+      <List onClick={showSlider}>
         {['Home', 'MakeSchool', 'NewsY', 'YComb'].map((text) => (
           <ListItem button key={text}>
 						<NavLink exact to={text === 'Home' ? "/" : `/${text.toLowerCase()}`  }>
@@ -61,7 +64,7 @@ export default function TemporaryDrawer() {
       {['left'].map(anchor => (
         <React.Fragment key={anchor}>
           <Button onClick={toggleDrawer(anchor, true)}>
-						<FontAwesome style={{color:'#05abff'}} name='dove' size='4x'/>
+						<FontAwesome onClick={showSlider} style={{color:'#fff'}} name='dove' size='4x'/>
 					</Button>
           <Drawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)}>
             {list(anchor)}

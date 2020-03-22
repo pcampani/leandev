@@ -4,7 +4,7 @@ export const Heading = styled.h1`
   font-size: 6rem;
   text-shadow: 2px 2px 2px rgba(0,0,0,.2), 2px 2px 2px rgba(0,0,0,.2);
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 8rem;
 `
 export const Wrapper = styled.div`
   margin-top: 3rem;

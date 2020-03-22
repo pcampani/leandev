@@ -2,6 +2,7 @@ import React from 'react';
 import Container from '@material-ui/core/Container';
 import { motion } from 'framer-motion';
 
+import Header from '../Header';
 import { dummyData } from '../../state/tweetData';
 import Footer from "../Footer";
 import Tweet from "./Tweet"
@@ -18,6 +19,7 @@ export default function YComb() {
  
   return (
     <motion.div exit='out' animate='in' inital='out' variants={pageTransition}>
+        <Header />
         <Container maxWidth='lg'>
           <Heading>YComb</Heading>
           <Wrapper>

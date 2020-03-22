@@ -4,7 +4,6 @@ import { AnimatePresence } from 'framer-motion';
 import NProgress from "nprogress";
 import 'nprogress/nprogress.css';
 
-//import Header from '../components/Header';
 import Navigation from '../components/Navigation';
 import Welcome from "../components/Welcome";
 import MakeSchool from "../components/Tweets/MakeSchool";

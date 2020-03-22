@@ -3,6 +3,7 @@ import Container from '@material-ui/core/Container';
 import { dummyData } from '../../state/tweetData';
 import { motion } from 'framer-motion';
 
+import Header from '../Header';
 import Tweet from "./Tweet";
 import {Wrapper, Heading, pageTransition} from "../Stylesheets";
 import Footer from "../Footer";
@@ -19,6 +20,7 @@ export default function NewsY() {
   
   return (
     <motion.div exit='out' animate='in' inital='out' variants={pageTransition}>
+        <Header />
         <Container maxWidth='lg'>
           <Heading>NewsY</Heading>
           <Wrapper>

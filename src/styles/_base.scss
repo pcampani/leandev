@@ -42,14 +42,16 @@ span.MuiButton-label {
   width: 80px;
   padding: 1rem;
   border-radius: 80px;
-  top: 1rem;
+  top: .5rem;
   left: 1rem;
-  z-index: 100;
-  background-color: rgba(0,0,0,.8);
+  z-index: 1101;
 
 }
 
-
+h4.MuiTypography-root {
+  position: absolute;
+  right: 3rem;
+}
 .fa-dove {
   transition: .2s ease-in;
 }

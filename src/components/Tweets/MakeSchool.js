@@ -2,6 +2,7 @@ import React from 'react';
 import Container from '@material-ui/core/Container';
 import { motion } from 'framer-motion';
 
+import Header from '../Header';
 import Tweet from "./Tweet";
 import { dummyData } from '../../state/tweetData';
 import Footer from "../Footer";
@@ -21,6 +22,7 @@ export default function MakeSchool() {
   
     return (
       <motion.div exit='out' animate='in' inital='out' variants={pageTransition}>
+         <Header />
         <Container maxWidth='lg'>
           <Heading>MakeSchool</Heading>
           <Wrapper>
