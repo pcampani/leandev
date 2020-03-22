@@ -26,8 +26,8 @@ a {
 }
 
 span.MuiTypography-root {
-  font-size: 16px !important;
-  color: #05abff;
+  font-size: 16px;
+  color:#3c52aa;
   transition: transform .125s ease-in;
   
 }
@@ -51,6 +51,7 @@ span.MuiButton-label {
 h4.MuiTypography-root {
   position: absolute;
   right: 3rem;
+  font-weight: 300;
 }
 .fa-dove {
   transition: .2s ease-in;
