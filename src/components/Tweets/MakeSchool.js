@@ -5,7 +5,7 @@ import Header from '../Header';
 import Tweet from "./Tweet";
 import { dummyData } from '../../state/tweetData';
 import Footer from "../Footer";
-import {Wrapper, Heading, pageTransition} from "../Stylesheets";
+import {Wrapper, Heading} from "../Stylesheets";
 
 
 
@@ -21,7 +21,7 @@ export default function MakeSchool() {
   
     return (
       <div>
-         <Header />
+        <Header />
         <Container maxWidth='lg'>
           <Heading>MakeSchool</Heading>
           <Wrapper>

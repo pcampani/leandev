@@ -4,7 +4,7 @@ import { dummyData } from '../../state/tweetData';
 
 import Header from '../Header';
 import Tweet from "./Tweet";
-import {Wrapper, Heading, pageTransition} from "../Stylesheets";
+import {Wrapper, Heading } from "../Stylesheets";
 import Footer from "../Footer";
 
 

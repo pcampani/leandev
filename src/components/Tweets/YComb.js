@@ -5,7 +5,7 @@ import Header from '../Header';
 import { dummyData } from '../../state/tweetData';
 import Footer from "../Footer";
 import Tweet from "./Tweet"
-import {Wrapper, Heading, pageTransition} from "../Stylesheets";
+import {Wrapper, Heading} from "../Stylesheets";
 
 export default function YComb() {
   let [tweets, setTweets] = React.useState([]);

@@ -31,6 +31,7 @@ const TweetCardDate = styled.div`
   left: 5.5rem;
   color: #3c52aa;
   text-shadow: 1px 1px 1px #3c52aa55;
+  text-align: center;
   span {
     display: block;
   }

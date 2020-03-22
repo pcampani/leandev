@@ -49,7 +49,7 @@ export default function Welcome() {
     return (
       <div>
         <Index>
-          <h1>FRONTEND CODING<span>CHALLENGE</span></h1>
+          <h1>LEANDEV CODING<span>PROJECT</span></h1>
         </Index>
       </div>
     )
