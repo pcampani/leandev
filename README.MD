@@ -9,6 +9,7 @@
 * Webpack
 
 ## How to run app
+* Clone or download repo
 * Install dependencies with npm install
 * npm run start
 * Open app on http://localhost:9000 
