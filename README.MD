@@ -12,3 +12,4 @@
 ## How to run app
 * Install dependencies with npm install
 * npm run start
+* Open app on http://localhost:9000 
