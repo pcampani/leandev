@@ -22,7 +22,7 @@ export default function Router() {
   React.useEffect(()=> {
     NProgress.start();
     NProgress.done();
-  })
+  },[])
 
     return(
       <div>

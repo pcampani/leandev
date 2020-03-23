@@ -1,7 +1,6 @@
 # Leandev React Project 
 
 ## Tech Stack Used
-
 * React
 * React Hooks
 * Material UI for Main Menu
